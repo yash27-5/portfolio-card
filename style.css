@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #282341;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3{
+    font-weight: 500;
+}
+button{
+    border: none;
+    border-radius: 5px;
+}
+.personal .btngroup{
+    text-align: center;
+    margin: 10px;
+}
+.personal .social{
+    margin-top: 20px;
+    text-align: center;
+}
+.personal .social i{
+    text-align: center;
+    display: inline-block;
+    margin: 3px;
+    /* font-size: 20px; */
+}
+.profile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #232137;
+    width: 400px;
+    box-shadow:-6px 18px 25px -13px rgba(0, 0, 0, 0.75) ;
+    border-radius: 30px;
+}
+.skills li{
+    display: inline-block;
+}
+.personal img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius : 100%;
+}
+.personal h1,h2,h3{
+    text-align: center;
+}
+.personal .protxt{
+    background-color: #F5be40;
+    padding: 7px 15px;
+    position: absolute;
+    border-radius:5px ;
+}
+
+.personal .btn1{
+    color: #48aacd;
+    background-color:transparent;
+    padding: 8px 15px;
+    border: 2px solid#48AACD;
+}
+.personal .btn1:hover{
+    box-shadow: #48AACD;
+    background-color: #48aacd;
+    color: black;
+    padding: 8px 15px; 
+}
+.personal .btn2:hover{
+    box-shadow: #48AACD;
+    background-color: #48aacd;
+    color: black;
+     padding: 8px 15px;  
+}
+.personal .btn2{
+    border: 2px solid #48AACD;
+    background-color: transparent;
+    color:#48AACD;
+    padding: 8px 15px;
+}
+.skills{
+    background-color: #1f1c3a;
+    margin: 20px;
+    border-radius: 20px;
+}
+.skills li{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 6px 8px;
+    margin-left: 10px;
+}
+.personal{
+    padding: 20px;
+}
+.skill{
+    text-align: center;
+}
